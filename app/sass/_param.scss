@@ -1,0 +1,39 @@
+.icon-card{
+  @include sprite($card);
+}
+.icon-checked{
+  @include sprite($checked);
+}
+.icon-close{
+  @include sprite($close);
+}
+.icon-cvv{
+  @include sprite($cvv);
+}
+.icon-data{
+  @include sprite($data);
+}
+.icon-facebook{
+  @include sprite($facebook);
+}
+.icon-logo{
+  @include sprite($logo);
+}
+.icon-tel1{
+  @include sprite($tel1);
+}
+.icon-viber{
+  @include sprite($viber);
+}
+.icon-telegramm{
+  @include sprite($telegramm);
+}
+.icon-pay{
+  @include sprite($pay);
+}
+.icon-back{
+  @include sprite($back);
+}
+.icon{
+  display: inline-block;
+}

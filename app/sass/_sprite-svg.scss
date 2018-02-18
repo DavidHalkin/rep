@@ -1,0 +1,21 @@
+.icon-svg {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	fill: currentColor;
+	vertical-align: middle;
+	font-size: inherit; // can't have font-size inherit on line above, so need to override
+	text-rendering: auto; // optimizelegibility throws things off #1094
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	line-height: 1;
+}
+
+.icon-next {
+	font-size:(32/10)*1rem;
+	width:(32/32)*1em;
+}
+.icon-repeat {
+	font-size:(32/10)*1rem;
+	width:(36/32)*1em;
+}

@@ -1,0 +1,222 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$back-name: 'back';
+$back-x: 88px;
+$back-y: 36px;
+$back-offset-x: -88px;
+$back-offset-y: -36px;
+$back-width: 11px;
+$back-height: 17px;
+$back-total-width: 117px;
+$back-total-height: 86px;
+$back-image: '../images/sprite.png';
+$back: (88px, 36px, -88px, -36px, 11px, 17px, 117px, 86px, '../images/sprite.png', 'back', );
+$card-name: 'card';
+$card-x: 0px;
+$card-y: 70px;
+$card-offset-x: 0px;
+$card-offset-y: -70px;
+$card-width: 16px;
+$card-height: 16px;
+$card-total-width: 117px;
+$card-total-height: 86px;
+$card-image: '../images/sprite.png';
+$card: (0px, 70px, 0px, -70px, 16px, 16px, 117px, 86px, '../images/sprite.png', 'card', );
+$checked-name: 'checked';
+$checked-x: 105px;
+$checked-y: 0px;
+$checked-offset-x: -105px;
+$checked-offset-y: 0px;
+$checked-width: 12px;
+$checked-height: 12px;
+$checked-total-width: 117px;
+$checked-total-height: 86px;
+$checked-image: '../images/sprite.png';
+$checked: (105px, 0px, -105px, 0px, 12px, 12px, 117px, 86px, '../images/sprite.png', 'checked', );
+$close-name: 'close';
+$close-x: 21px;
+$close-y: 70px;
+$close-offset-x: -21px;
+$close-offset-y: -70px;
+$close-width: 15px;
+$close-height: 16px;
+$close-total-width: 117px;
+$close-total-height: 86px;
+$close-image: '../images/sprite.png';
+$close: (21px, 70px, -21px, -70px, 15px, 16px, 117px, 86px, '../images/sprite.png', 'close', );
+$cvv-name: 'cvv';
+$cvv-x: 61px;
+$cvv-y: 70px;
+$cvv-offset-x: -61px;
+$cvv-offset-y: -70px;
+$cvv-width: 12px;
+$cvv-height: 14px;
+$cvv-total-width: 117px;
+$cvv-total-height: 86px;
+$cvv-image: '../images/sprite.png';
+$cvv: (61px, 70px, -61px, -70px, 12px, 14px, 117px, 86px, '../images/sprite.png', 'cvv', );
+$data-name: 'data';
+$data-x: 41px;
+$data-y: 70px;
+$data-offset-x: -41px;
+$data-offset-y: -70px;
+$data-width: 15px;
+$data-height: 15px;
+$data-total-width: 117px;
+$data-total-height: 86px;
+$data-image: '../images/sprite.png';
+$data: (41px, 70px, -41px, -70px, 15px, 15px, 117px, 86px, '../images/sprite.png', 'data', );
+$facebook-name: 'facebook';
+$facebook-x: 0px;
+$facebook-y: 36px;
+$facebook-offset-x: 0px;
+$facebook-offset-y: -36px;
+$facebook-width: 29px;
+$facebook-height: 29px;
+$facebook-total-width: 117px;
+$facebook-total-height: 86px;
+$facebook-image: '../images/sprite.png';
+$facebook: (0px, 36px, 0px, -36px, 29px, 29px, 117px, 86px, '../images/sprite.png', 'facebook', );
+$logo-name: 'logo';
+$logo-x: 71px;
+$logo-y: 0px;
+$logo-offset-x: -71px;
+$logo-offset-y: 0px;
+$logo-width: 29px;
+$logo-height: 31px;
+$logo-total-width: 117px;
+$logo-total-height: 86px;
+$logo-image: '../images/sprite.png';
+$logo: (71px, 0px, -71px, 0px, 29px, 31px, 117px, 86px, '../images/sprite.png', 'logo', );
+$no-checked-name: 'no-checked';
+$no-checked-x: 78px;
+$no-checked-y: 70px;
+$no-checked-offset-x: -78px;
+$no-checked-offset-y: -70px;
+$no-checked-width: 12px;
+$no-checked-height: 12px;
+$no-checked-total-width: 117px;
+$no-checked-total-height: 86px;
+$no-checked-image: '../images/sprite.png';
+$no-checked: (78px, 70px, -78px, -70px, 12px, 12px, 117px, 86px, '../images/sprite.png', 'no-checked', );
+$pay-name: 'pay';
+$pay-x: 0px;
+$pay-y: 0px;
+$pay-offset-x: 0px;
+$pay-offset-y: 0px;
+$pay-width: 31px;
+$pay-height: 31px;
+$pay-total-width: 117px;
+$pay-total-height: 86px;
+$pay-image: '../images/sprite.png';
+$pay: (0px, 0px, 0px, 0px, 31px, 31px, 117px, 86px, '../images/sprite.png', 'pay', );
+$tel1-name: 'tel1';
+$tel1-x: 66px;
+$tel1-y: 36px;
+$tel1-offset-x: -66px;
+$tel1-offset-y: -36px;
+$tel1-width: 17px;
+$tel1-height: 19px;
+$tel1-total-width: 117px;
+$tel1-total-height: 86px;
+$tel1-image: '../images/sprite.png';
+$tel1: (66px, 36px, -66px, -36px, 17px, 19px, 117px, 86px, '../images/sprite.png', 'tel1', );
+$telegramm-name: 'telegramm';
+$telegramm-x: 36px;
+$telegramm-y: 0px;
+$telegramm-offset-x: -36px;
+$telegramm-offset-y: 0px;
+$telegramm-width: 30px;
+$telegramm-height: 30px;
+$telegramm-total-width: 117px;
+$telegramm-total-height: 86px;
+$telegramm-image: '../images/sprite.png';
+$telegramm: (36px, 0px, -36px, 0px, 30px, 30px, 117px, 86px, '../images/sprite.png', 'telegramm', );
+$viber-name: 'viber';
+$viber-x: 34px;
+$viber-y: 36px;
+$viber-offset-x: -34px;
+$viber-offset-y: -36px;
+$viber-width: 27px;
+$viber-height: 27px;
+$viber-total-width: 117px;
+$viber-total-height: 86px;
+$viber-image: '../images/sprite.png';
+$viber: (34px, 36px, -34px, -36px, 27px, 27px, 117px, 86px, '../images/sprite.png', 'viber', );
+$spritesheet-width: 117px;
+$spritesheet-height: 86px;
+$spritesheet-image: '../images/sprite.png';
+$spritesheet-sprites: ($back, $card, $checked, $close, $cvv, $data, $facebook, $logo, $no-checked, $pay, $tel1, $telegramm, $viber, );
+$spritesheet: (117px, 86px, '../images/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

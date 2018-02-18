@@ -1,0 +1,201 @@
+html { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+body { margin: 0; min-width: 320px; }
+
+/* General reset */
+form, fieldset { margin: 0; padding: 0; border-style: none; }
+
+img { border-style: none; }
+
+input, select, textarea { vertical-align: middle; font: inherit; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+a { color: #034b8f; text-decoration: none; }
+
+a:hover { text-decoration: underline; }
+
+q { quotes: none; }
+
+q:before { content: ''; }
+
+q:after { content: ''; }
+
+button { overflow: visible; }
+
+button, select { text-transform: none; }
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] { -webkit-appearance: button; cursor: pointer; }
+
+button[disabled], html input[disabled] { cursor: default; }
+
+button::-moz-focus-inner, input::-moz-focus-inner { padding: 0; border: 0; }
+
+input { line-height: normal; }
+
+article, aside, audio, canvas, datalist, details, figcaption, figure, footer, header, hgroup, mark, menu, meter, nav, output, progress, section, summary, time, video { display: block; }
+
+svg:not(:root) { overflow: hidden; }
+
+*, *:before, *:after { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
+
+@font-face { font-family: 'Myriad Pro Cond'; src: url("../fonts/MyriadPro-Cond.eot"); src: url("../fonts/MyriadPro-Cond.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-Cond.woff2") format("woff2"), url("../fonts/MyriadPro-Cond.ttf") format("truetype"), url("../fonts/MyriadPro-Cond.svg#MyriadPro-Cond") format("svg"); font-weight: normal; font-style: normal; }
+
+.icon-svg { display: inline-block; width: 1em; height: 1em; fill: currentColor; vertical-align: middle; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; line-height: 1; }
+
+.icon-next { font-size: 3.2rem; width: 1em; }
+
+.icon-repeat { font-size: 3.2rem; width: 1.125em; }
+
+.icon-card { background-image: url(../images/sprite.png); background-position: 0px -70px; width: 16px; height: 16px; }
+
+.icon-checked { background-image: url(../images/sprite.png); background-position: -105px 0px; width: 12px; height: 12px; }
+
+.icon-close { background-image: url(../images/sprite.png); background-position: -21px -70px; width: 15px; height: 16px; }
+
+.icon-cvv { background-image: url(../images/sprite.png); background-position: -61px -70px; width: 12px; height: 14px; }
+
+.icon-data { background-image: url(../images/sprite.png); background-position: -41px -70px; width: 15px; height: 15px; }
+
+.icon-facebook { background-image: url(../images/sprite.png); background-position: 0px -36px; width: 29px; height: 29px; }
+
+.icon-logo { background-image: url(../images/sprite.png); background-position: -71px 0px; width: 29px; height: 31px; }
+
+.icon-tel1 { background-image: url(../images/sprite.png); background-position: -66px -36px; width: 17px; height: 19px; }
+
+.icon-viber { background-image: url(../images/sprite.png); background-position: -34px -36px; width: 27px; height: 27px; }
+
+.icon-telegramm { background-image: url(../images/sprite.png); background-position: -36px 0px; width: 30px; height: 30px; }
+
+.icon-pay { background-image: url(../images/sprite.png); background-position: 0px 0px; width: 31px; height: 31px; }
+
+.icon-back { background-image: url(../images/sprite.png); background-position: -88px -36px; width: 11px; height: 17px; }
+
+.icon { display: inline-block; }
+
+#header { background: #ccc; overflow: hidden; height: 210px; width: 100%; background: rgba(204, 204, 204, 0.6); }
+
+body { font: 18px/20px 'Myriad Pro Cond'; background: #cfcfcf; color: #3a3939; }
+
+h1 { font-weight: normal; }
+
+.modal { width: 100%; max-width: 246px; background: #fff; -webkit-border-radius: 20px; border-radius: 20px; background: #e6e5e6; -webkit-box-shadow: 0 5px 15px 0px rgba(0, 0, 1, 0.5); box-shadow: 0 5px 15px 0px rgba(0, 0, 1, 0.5); }
+
+.modal.modal_authorization .modal_middle { padding-bottom: 8px; }
+
+.modal.modal_new_payment .modal_middle { padding-top: 23px; padding-bottom: 9px; }
+
+.modal.modal_new_payment .modal_middle .input_holder { padding-left: 26px; margin-top: 24px; }
+
+.modal.modal_new_payment .modal_middle .input_holder input { padding-bottom: 1px; }
+
+.modal.modal_new_payment .modal_middle .input_holder i { left: 4px; bottom: 4px; }
+
+.modal.modal_new_payment .modal_middle .input_holder i.icon-cvv { bottom: 5px; }
+
+.modal.modal_new_payment .modal_middle .wrap_holder { padding-top: 8px; }
+
+.modal_footer { background: #2c215b; background: -webkit-linear-gradient(left, #2c215b 0%, #31215f 15%, #5b207b 70%, #6a2085 100%); background: -webkit-gradient(linear, left top, right top, from(#2c215b), color-stop(15%, #31215f), color-stop(70%, #5b207b), to(#6a2085)); background: -o-linear-gradient(left, #2c215b 0%, #31215f 15%, #5b207b 70%, #6a2085 100%); background: linear-gradient(to right, #2c215b 0%, #31215f 15%, #5b207b 70%, #6a2085 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c215b', endColorstr='#6a2085',GradientType=1 ); -webkit-border-bottom-right-radius: 20px; border-bottom-right-radius: 20px; -webkit-border-bottom-left-radius: 20px; border-bottom-left-radius: 20px; }
+
+.modal_footer a { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; height: 44px; text-align: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
+
+.modal_footer a:hover { text-decoration: none; }
+
+.modal_footer a i { display: inline-block; vertical-align: middle; }
+
+.modal_footer a span { font-size: 15px; line-height: 20px; display: inline-block; vertical-align: middle; color: #fff; padding: 0 5px; }
+
+.btn { display: block; width: 100%; -webkit-border-radius: 4px; border-radius: 4px; border: 0; margin: 0; padding: 0; cursor: pointer; height: 35px; color: #fff; font: 18px/20px 'Myriad Pro Cond'; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; outline: none; }
+
+.btn:hover { opacity: .7; }
+
+.btn span, .btn i { display: inline-block; vertical-align: middle; }
+
+.btn.btn-telegramm, .btn.btn-facebook, .btn.btn-viber, .btn.btn-pay { position: relative; padding-left: 54px; text-align: left; }
+
+.btn.btn-telegramm i, .btn.btn-facebook i, .btn.btn-viber i, .btn.btn-pay i { position: absolute; top: 50%; left: 6px; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
+
+.btn.btn-telegramm { background: #00b3e7; }
+
+.btn.btn-facebook { background: #0061dd; }
+
+.btn.btn-viber { background: #613b7c; }
+
+.btn.btn-black { background: #3a3939; }
+
+.btn.btn-orange { height: 38px; font-size: 18px; line-height: 38px; -webkit-border-radius: 13px; border-radius: 13px; margin-top: 6px; background: #ffa300; background: -webkit-linear-gradient(top, #ffa300 0%, #ff9d00 32%, #ff9b1d 41%, #ff9648 59%, #ff916c 81%, #ff8d80 100%); background: -webkit-gradient(linear, left top, left bottom, from(#ffa300), color-stop(32%, #ff9d00), color-stop(41%, #ff9b1d), color-stop(59%, #ff9648), color-stop(81%, #ff916c), to(#ff8d80)); background: -o-linear-gradient(top, #ffa300 0%, #ff9d00 32%, #ff9b1d 41%, #ff9648 59%, #ff916c 81%, #ff8d80 100%); background: linear-gradient(to bottom, #ffa300 0%, #ff9d00 32%, #ff9b1d 41%, #ff9648 59%, #ff916c 81%, #ff8d80 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa300', endColorstr='#ff8d80',GradientType=0 ); color: #fff; text-shadow: 0 1px 1px rgba(0, 0, 1, 0.75); }
+
+.btn.btn-orange.big--text { font-size: 24px; }
+
+.btn.btn-pay { background: #539dfc; }
+
+.field-row { margin: 0 -12px; }
+
+.field-row:after { display: block; clear: both; content: ''; }
+
+.field-row .cl { width: 50%; padding: 0 12px; float: left; }
+
+.list_btn { padding-bottom: 10px; padding-top: 26px; }
+
+.list_btn .btn { margin-bottom: 18px; }
+
+.list_btn em { display: block; text-align: center; font-style: normal; text-transform: uppercase; margin-top: -7px; padding-bottom: 11px; }
+
+.modal_holder { position: relative; }
+
+.modal_middle { padding: 0 22px; }
+
+.modal_middle p { margin: 0; font-size: 18px; line-height: 22px; color: #605f5f; text-align: center; padding-bottom: 8px; }
+
+.icon-back { position: absolute; top: 2px; left: 13px; }
+
+.wrap_holder { padding: 0 13px; }
+
+.wrap_holder:after, .wrap_holder:before { display: table; clear: both; content: ''; }
+
+.modal_top { padding: 21px 27px 0; }
+
+.modal_top .icon-close { position: absolute; top: 15px; right: 15px; }
+
+.modal_top h3 { margin: 0; text-align: center; font-weight: normal; color: #605f5f; position: relative; padding-bottom: 8px; }
+
+.modal_top h3:after { content: ''; width: 100%; height: 1px; background: #acacac; position: absolute; bottom: 0; left: 0; }
+
+.input_holder { padding-left: 26px; padding-left: 34px; position: relative; border-bottom: 1px solid #868585; }
+
+.input_holder i { position: absolute; bottom: 5px; left: 8px; }
+
+.input_holder input { padding: 0; margin: 0; width: 100%; border: 0; background: none; display: block; font-size: 18px; color: #787676; outline: none; padding-bottom: 5px; }
+
+.input_holder input::-webkit-input-placeholder { color: #868585; opacity: 1; }
+
+.input_holder input::-moz-placeholder { color: #868585; opacity: 1; }
+
+.input_holder input:-ms-input-placeholder { color: #868585; opacity: 1; }
+
+/* Base for label styling */
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked { position: absolute; left: -9999px; }
+
+[type="checkbox"]:not(:checked) + label, [type="checkbox"]:checked + label { position: relative; padding-left: 21px; cursor: pointer; color: #868585; font-size: 18px; }
+
+/* checkbox aspect */
+[type="checkbox"]:not(:checked) + label:before, [type="checkbox"]:checked + label:before { content: ''; position: absolute; left: 0; top: 5px; width: 12px; height: 12px; background: #6297f8; -webkit-border-radius: 3px; border-radius: 3px; }
+
+.checkbox-field { padding-left: 4px; margin-top: 25px; margin-bottom: 9px; }
+
+/* checked mark aspect */
+[type="checkbox"]:not(:checked) + label:after, [type="checkbox"]:checked + label:after { content: ''; position: absolute; top: 7px; left: 2px; -webkit-transition: all .2s; -o-transition: all .2s; transition: all .2s; width: 8px; height: 9px; background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAJCAIAAACAMfp5AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjMxM0FFMDg5MTRCMDExRThBNDI4RUE3NkZDQzI3NjVBIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjMxM0FFMDhBMTRCMDExRThBNDI4RUE3NkZDQzI3NjVBIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MzEzQUUwODcxNEIwMTFFOEE0MjhFQTc2RkNDMjc2NUEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MzEzQUUwODgxNEIwMTFFOEE0MjhFQTc2RkNDMjc2NUEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6rmM/bAAAA3ElEQVR42mK0mfGbgYHhHyMD038GEOP/XxsZhhNPGZjgokDyz9+/Cfr/On3Y9cX/gCSgav/9l+P9nWTOcenxl0O3vjMBVSny/waSf//8qnNhA6ooWPmck4ePxVruX48P5+zj3z//+K8tyda34+k7JnFuFiaWA9c/Xzb8l2LB/evvvzuvvs8481dYhBNoOBMrN3/M3KevPv1mY2bKW/5UWEiChZHxLwMDCyMzM4egrOfkexLcjM//iXNygJzDyMjA8v8/AzMb638B+We/fvHycAEd/fc/w/9/DAABBgBj4FtvzG1P+gAAAABJRU5ErkJggg=="); }
+
+/* checked mark aspect changes */
+[type="checkbox"]:not(:checked) + label:after { opacity: 0; -webkit-transform: scale(0); -ms-transform: scale(0); transform: scale(0); }
+
+[type="checkbox"]:checked + label:after { opacity: 1; -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1); }
+
+/* disabled checkbox */
+[type="checkbox"]:disabled:not(:checked) + label:before, [type="checkbox"]:disabled:checked + label:before { -webkit-box-shadow: none; box-shadow: none; border-color: #bbb; background-color: #ddd; }
+
+[type="checkbox"]:disabled:checked + label:after { color: #999; }
+
+[type="checkbox"]:disabled + label { color: #aaa; }
+
+/*# sourceMappingURL=all.css.map */
