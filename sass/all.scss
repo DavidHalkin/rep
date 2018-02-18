@@ -2,17 +2,27 @@
 '_reset',
 '_font',
 '_sprite',
-'_sprite-svg',
-'_param',
-'_header',
-'_footer';
+'_param';
 body{
 	font: 18px/20px 'Myriad Pro Cond';
 	background: #cfcfcf;
 	color: #3a3939;
+	height: 100%;
+	min-width: 320px;
+}
+body,html{
+	height: 100%;
 }
 h1{
 	font-weight: normal;
+}
+.wrapper-home{
+	padding: 15px;
+	min-height: 100%;
+	display: flex;
+	flex-flow:column nowrap;
+	justify-content:center;
+	align-items:center;
 }
 .modal{
 	width: 100%;
@@ -21,6 +31,9 @@ h1{
 	border-radius: 20px;
 	background: #e6e5e6;
 	box-shadow: 0 5px 15px 0px rgba(#000001,.5);
+	&.closed{
+		display: none;
+	}
 	&.modal_authorization{
 		.modal_middle{
 			padding-bottom: 8px;
@@ -318,4 +331,10 @@ h1{
 }
 [type="checkbox"]:disabled + label {
   color: #aaa;
+}
+.modal_authorization{
+	display: none;
+	&.opened{
+		display: block;
+	}
 }
