@@ -41,12 +41,6 @@ svg:not(:root) { overflow: hidden; }
 
 @font-face { font-family: 'Myriad Pro Cond'; src: url("../fonts/MyriadPro-Cond.eot"); src: url("../fonts/MyriadPro-Cond.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-Cond.woff2") format("woff2"), url("../fonts/MyriadPro-Cond.ttf") format("truetype"), url("../fonts/MyriadPro-Cond.svg#MyriadPro-Cond") format("svg"); font-weight: normal; font-style: normal; }
 
-.icon-svg { display: inline-block; width: 1em; height: 1em; fill: currentColor; vertical-align: middle; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; line-height: 1; }
-
-.icon-next { font-size: 3.2rem; width: 1em; }
-
-.icon-repeat { font-size: 3.2rem; width: 1.125em; }
-
 .icon-card { background-image: url(../images/sprite.png); background-position: 0px -70px; width: 16px; height: 16px; }
 
 .icon-checked { background-image: url(../images/sprite.png); background-position: -105px 0px; width: 12px; height: 12px; }
@@ -73,13 +67,17 @@ svg:not(:root) { overflow: hidden; }
 
 .icon { display: inline-block; }
 
-#header { background: #ccc; overflow: hidden; height: 210px; width: 100%; background: rgba(204, 204, 204, 0.6); }
+body { font: 18px/20px 'Myriad Pro Cond'; background: #cfcfcf; color: #3a3939; height: 100%; min-width: 320px; }
 
-body { font: 18px/20px 'Myriad Pro Cond'; background: #cfcfcf; color: #3a3939; }
+body, html { height: 100%; }
 
 h1 { font-weight: normal; }
 
+.wrapper-home { padding: 15px; min-height: 100%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-flow: column nowrap; -ms-flex-flow: column nowrap; flex-flow: column nowrap; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
+
 .modal { width: 100%; max-width: 246px; background: #fff; -webkit-border-radius: 20px; border-radius: 20px; background: #e6e5e6; -webkit-box-shadow: 0 5px 15px 0px rgba(0, 0, 1, 0.5); box-shadow: 0 5px 15px 0px rgba(0, 0, 1, 0.5); }
+
+.modal.closed { display: none; }
 
 .modal.modal_authorization .modal_middle { padding-bottom: 8px; }
 
@@ -197,5 +195,9 @@ h1 { font-weight: normal; }
 [type="checkbox"]:disabled:checked + label:after { color: #999; }
 
 [type="checkbox"]:disabled + label { color: #aaa; }
+
+.modal_authorization { display: none; }
+
+.modal_authorization.opened { display: block; }
 
 /*# sourceMappingURL=all.css.map */
