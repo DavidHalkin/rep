@@ -22,7 +22,7 @@ var gulp       	= require('gulp'), // Подключаем Gulp
 	sftp 		= require('gulp-sftp');
 
 
-var assetsDir = 'app/';  
+var assetsDir = 'app/';     
 var buildDir = 'markup/';
 
 
